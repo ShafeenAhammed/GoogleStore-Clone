@@ -1,0 +1,207 @@
+
+a{
+    text-decoration: none;
+}
+
+#drop{
+    color: #423f3f;
+}
+
+/* #drop:checked{
+    color: aqua;
+    transform: rotateZ('180deg');
+} */
+
+/* .rotate {
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+} */
+
+.google-logo, .search ,.cart,.qustion{
+    width: 24px;
+    height: 24px;
+}
+.profile{
+    width: 32px;
+    height: 32px;
+}
+.heading {
+    color:#3c3043;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 68px;
+    letter-spacing: -2px;
+}
+
+
+.card{
+    width: 18rem;
+    height: 20rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+}
+
+.card img{
+    transform: scale(0.5);
+    transition: transform 0.3s;
+}
+.card img:hover{
+    transform: scale(0.8);
+}
+
+
+
+
+.bg-body-light a{
+    display: none;
+}
+.hide{
+    display: block;
+    text-align: justify;
+}
+
+.hide-lg{
+    display: none;
+}
+
+.footer{
+    font-size: 11px;
+}
+
+i{
+    color: #423f3f;
+    cursor: pointer;
+}
+
+
+/* Carousel  */
+
+.carousel-inner{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.carousel-item img{
+   width:100%;
+   height: 100%;
+}
+
+
+.carousel-control-prev::before,
+.carousel-control-next::before{
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #000;
+    position: absolute;
+    z-index:-1;
+    padding:30px;
+    border-radius: 50%;
+}
+
+.navbar{
+    box-shadow: 0;
+}
+
+.navbar-shadow{
+    box-shadow: 0 0.5rem 1rem rgba(var(--bs-body-color-rgb), 0.15) !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.search:hover{
+    fill: rgb(37, 66, 250) ;
+    cursor: pointer;
+}
+
+.qustion:hover{
+    fill: rgb(37, 66, 250) ;
+    cursor: pointer;
+}
+
+.cart:hover{
+    fill: rgb(37, 66, 250) ;
+    cursor: pointer;
+}
+
+.profile:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .card{
+        padding: 80px 7%;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .bg-body-light{
+        text-align: center;
+        background-color:rgba(211, 211, 211,0.2) ;
+    }
+    
+    .bg-body-light a{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .hide-lg{
+        display: block;
+        text-align: justify;
+    }
+}
+@media screen and (max-width:768px) {
+    .heading {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .card{
+        padding: 10px 2%;
+    }
+}
+@media screen and (max-width:520px) {
+    .card{
+        padding: 10px ;
+    }
+    .carousel-inner{
+        width: 300px;
+        height: 300px;
+        margin: auto;
+
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    /* .card{
+    width: 20rem;
+    height: 20rem;
+    } */
+}
+
+
